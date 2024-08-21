@@ -55,3 +55,11 @@ for (let button of buttons){
         button.onclick = function(){show(button.textContent, button.textContent)};
     }
 }
+
+function handleKeyPress(event){
+    if (event.key === "enter"){
+        evaluate();
+    }
+}
+
+document.addEventListener("keydown", handleKeyPress);
