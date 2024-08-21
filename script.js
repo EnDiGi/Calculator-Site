@@ -57,7 +57,7 @@ for (let button of buttons){
 }
 
 function handleKeyPress(event){
-    if (event.key === "enter"){
+    if (event.key === "Enter"){
         evaluate();
     }
 }
